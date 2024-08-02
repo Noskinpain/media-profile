@@ -1,29 +1,30 @@
-import React from 'react'
-import { GoTrashcan } from 'react-icons/go';
-import { removeUser } from '../store';
-import { useThunk } from '../hooks/use-thunk';
-import Button from './Button';
+import React from "react";
+import { GoTrashcan } from "react-icons/go";
+import { removeUser } from "../store";
+import { useThunk } from "../hooks/use-thunk";
+import Button from "./Button";
+import ExpandablePanel from "./ExpandablePanel";
+import AlbulmsList from "./AlbulmsList";
 
-const UsersListItem = ({user}) => {
+const UsersListItem = ({ user }) => {
+  const [doRemoveUser, isLoading, error] = useThunk(removeUser);
 
-    const [doRemoveUser, isLoading, error] = useThunk(removeUser)
+  const handleClick = () => {
+    doRemoveUser(user);
+  };
 
-    const handleClick = () => {
-        doRemoveUser(user)
-    }
-  return (
-          <div className="mb-2 border rounded">
-            <div className="flex p-2 justify-between items-center cursor-pointer">
-                <div className='flex flex-row items-center justify-between'>
-                <Button className="mr-3" onClick = {handleClick} loading={isLoading}>
-                    <GoTrashcan/>
-                </Button>
-                {error && <div>Error deleting user</div>}
-              {user.name}
-              </div>
-            </div>
-          </div>
-        );
-}
+  const header = (
+    <>
+      <Button className="mr-3" onClick={handleClick} loading={isLoading}>
+        <GoTrashcan />
+      </Button>
+      {error && <div>Error deleting user</div>}
+      {user.name}
+    </>
+  );
+  return <ExpandablePanel header={header}>
+    <AlbulmsList user = {user} />
+  </ExpandablePanel>;
+};
 
-export default UsersListItem
+export default UsersListItem;
