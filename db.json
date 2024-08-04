@@ -17,6 +17,27 @@
       "id": 6
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Happy day",
+      "userId": 1
+    },
+    {
+      "userId": 6,
+      "title": "Licensed Metal Pizza",
+      "id": 11
+    },
+    {
+      "userId": 6,
+      "title": "Elegant Rubber Bike",
+      "id": 12
+    },
+    {
+      "userId": 6,
+      "title": "Handcrafted Rubber Shirt",
+      "id": 13
+    }
+  ],
   "photos": []
 }
