@@ -15,14 +15,13 @@
     {
       "name": "Marlon Hintz",
       "id": 6
+    },
+    {
+      "name": "Clinton Macejkovic",
+      "id": 7
     }
   ],
   "albums": [
-    {
-      "id": 10,
-      "title": "Happy day",
-      "userId": 1
-    },
     {
       "userId": 6,
       "title": "Licensed Metal Pizza",
@@ -37,6 +36,76 @@
       "userId": 6,
       "title": "Handcrafted Rubber Shirt",
       "id": 13
+    },
+    {
+      "userId": 1,
+      "title": "Sleek Wooden Chicken",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Tasty Fresh Tuna",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "title": "Tasty Steel Table",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "title": "Small Steel Shirt",
+      "id": 18
+    },
+    {
+      "userId": 3,
+      "title": "Ergonomic Cotton Fish",
+      "id": 19
+    },
+    {
+      "userId": 5,
+      "title": "Awesome Concrete Pizza",
+      "id": 20
+    },
+    {
+      "userId": 3,
+      "title": "Recycled Wooden Computer",
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "title": "Practical Cotton Tuna",
+      "id": 22
+    },
+    {
+      "userId": 3,
+      "title": "Intelligent Fresh Towels",
+      "id": 23
+    },
+    {
+      "userId": 5,
+      "title": "Luxurious Granite Hat",
+      "id": 24
+    },
+    {
+      "userId": 5,
+      "title": "Gorgeous Granite Towels",
+      "id": 25
+    },
+    {
+      "userId": 5,
+      "title": "Fantastic Plastic Shoes",
+      "id": 26
+    },
+    {
+      "userId": 7,
+      "title": "Small Rubber Cheese",
+      "id": 27
+    },
+    {
+      "userId": 7,
+      "title": "Intelligent Fresh Cheese",
+      "id": 28
     }
   ],
   "photos": []
