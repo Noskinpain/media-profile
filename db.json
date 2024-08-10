@@ -33,29 +33,9 @@
       "id": 12
     },
     {
-      "userId": 6,
-      "title": "Handcrafted Rubber Shirt",
-      "id": 13
-    },
-    {
-      "userId": 1,
-      "title": "Sleek Wooden Chicken",
-      "id": 15
-    },
-    {
-      "userId": 1,
-      "title": "Tasty Fresh Tuna",
-      "id": 16
-    },
-    {
       "userId": 1,
       "title": "Tasty Steel Table",
       "id": 17
-    },
-    {
-      "userId": 1,
-      "title": "Small Steel Shirt",
-      "id": 18
     },
     {
       "userId": 3,
@@ -96,11 +76,6 @@
       "userId": 5,
       "title": "Fantastic Plastic Shoes",
       "id": 26
-    },
-    {
-      "userId": 7,
-      "title": "Small Rubber Cheese",
-      "id": 27
     },
     {
       "userId": 7,
