@@ -34,9 +34,9 @@ else if(error){
             +Add Album
         </Button>
     </div>
-     <dov>
+     <div>
         {content}
-     </dov>
+     </div>
     </div>
   )
 }
